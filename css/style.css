@@ -366,6 +366,7 @@ body {
 .logo-company-link:hover,
 .logo-company-link:focus{
         color: #2196F3;
+        border: 1px solid #2196F3;
 }
 .team_total_contacts {
         width: 20px;
