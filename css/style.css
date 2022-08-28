@@ -82,7 +82,6 @@ body {
 .tel-list{
         align-items: center;
         margin-left: auto;
-        /* margin-top: 32px; */
         gap: 50px;
 }
 .web-study{
@@ -118,9 +117,25 @@ body {
         line-height: 1.14;
         letter-spacing: 0.02em;
         color: #757575;
+        fill: var(--neader-footer-textcolor);
 }
 .tel:hover,.tel:focus{
     color: #2196F3;
+    fill: var(--logo-color);
+
+}
+.tel-list-item{
+        
+}
+.tel_list_envelope{
+        
+        width: 16px;
+        height: 12px;
+        
+}
+.tel_list_smartphone{
+        width: 10px;
+        height: 16px;
 
 }
 .current {
@@ -151,6 +166,8 @@ body {
         padding-top: 200px;
         padding-bottom: 200px;
         text-align: center;
+        background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/portfolio/Imgbg.jpg);
+        background-size: cover;
            
 }
 .order{
@@ -171,6 +188,27 @@ body {
         background-color: #2196F3;
         
         
+}
+.special_list{
+        width: 70px;
+        height: 70px;
+        /* background-color: #F5F4FA; */
+        /* margin-bottom: 55px; */
+        
+}
+.flex-special{
+        display: flex;
+        justify-content: space-around;
+}
+.bg-special{
+        width: 270px;
+        height: 120px;
+        background: #F5F4FA;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
 }
 .section-p{
         padding-top: 0px;
@@ -270,6 +308,38 @@ body {
 .team-list{
         justify-content: space-between;
         
+}
+.team_total_contacts{
+        width: 20px;
+        height: 20px;
+        fill: #757575;
+        
+        
+}
+.team-total-flex{
+        display: flex;
+        justify-content: center;
+        column-gap: 10px;
+}
+.social_list_link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        margin-top: 16px;
+        
+}
+.social_list_link:hover,
+.social_list_link:focus{
+        background-color:#2196F3;
+        
+}
+.social_list_link:hover .team_total_contacts,
+.social_list_link:focus .team_total_contacts{
+        fill: #fff;
 }
 
 .bgfot {
