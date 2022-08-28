@@ -341,6 +341,39 @@ body {
 .social_list_link:focus .team_total_contacts{
         fill: #fff;
 }
+.logo-company-list{
+        display: flex;
+        gap: 30px;
+        
+}
+.logo-company-link{
+        /* display: block; */
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        
+}
+.logo-company{
+        fill: #AFB1B8;
+        width: 170px;
+        height: 92px;
+}
+.logo-company:hover,
+.logo-company:focus
+{
+        fill: #2196F3;
+        
+}
+.logo-company-link:hover,
+.logo-company-link:focus{
+        color: #2196F3;
+}
+.team_total_contacts {
+        width: 20px;
+        height: 20px;
+        fill: #757575;
+
+
+}
 
 .bgfot {
         background-color: #2F303A;
@@ -400,6 +433,53 @@ body {
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
         
+}
+.flex-footer{
+        display: flex;
+        align-items: flex-start;
+}
+.follow{
+        margin-left: 70px;
+}
+.social-footer{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 10px;
+}
+.social_list_link_footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.1);
+        margin-top: 16px;
+
+}
+.team_total_contacts_footer {
+        width: 20px;
+        height: 20px;
+        fill: #fff;
+
+
+}
+
+.social_list_link_footer:hover,
+.social_list_link_footer:focus {
+        background-color: #2196F3;
+
+}
+
+.social_list_link_footer:hover .team_total_contacts_footer,
+.social_list_link_footer:focus .team_total_contacts_footer {
+        fill: #fff;
 }
 
 /* Портфолио*/
