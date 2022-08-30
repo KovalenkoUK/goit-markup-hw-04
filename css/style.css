@@ -1,7 +1,6 @@
 /* Обнуление*/
 li {
-    font-family: 'Roboto',
-        sans-serif;
+    
     list-style-type: none;
     
 }
@@ -118,6 +117,9 @@ body {
         letter-spacing: 0.02em;
         color: #757575;
         fill: var(--neader-footer-textcolor);
+        fill: currentColor;
+        display: flex;
+        align-items: center;
 }
 .tel:hover,.tel:focus{
     color: #2196F3;
@@ -131,11 +133,13 @@ body {
         
         width: 16px;
         height: 12px;
+        margin-right: 10px;
         
 }
 .tel_list_smartphone{
         width: 10px;
         height: 16px;
+        margin-right: 10px;
 
 }
 .current {
@@ -168,6 +172,10 @@ body {
         text-align: center;
         background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/portfolio/Imgbg.jpg);
         background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 1600px;
+        max-height: 600px;
+        margin: 0px auto;
            
 }
 .order{
@@ -215,7 +223,7 @@ body {
 }
 .team-name{
         font-style: normal;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.14;
         letter-spacing: 0.03em;
@@ -312,7 +320,7 @@ body {
 .team_total_contacts{
         width: 20px;
         height: 20px;
-        fill: #757575;
+        fill: currentColor;
         
         
 }
@@ -320,6 +328,7 @@ body {
         display: flex;
         justify-content: center;
         column-gap: 10px;
+        margin-top: 16px;
 }
 .social_list_link{
         display: flex;
@@ -328,19 +337,19 @@ body {
         width: 44px;
         height: 44px;
         border-radius: 50%;
-        background-color: rgb(255, 255, 255);
-        margin-top: 16px;
+        /* background-color: rgb(255, 255, 255); */
+        color: #AFB1B8;
+        
         
 }
 .social_list_link:hover,
 .social_list_link:focus{
         background-color:#2196F3;
+        color: #FFFFFF;
         
 }
-.social_list_link:hover .team_total_contacts,
-.social_list_link:focus .team_total_contacts{
-        fill: #fff;
-}
+
+
 .logo-company-list{
         display: flex;
         gap: 30px;
@@ -348,33 +357,39 @@ body {
 }
 .logo-company-link{
         /* display: block; */
-        border: 1px solid #AFB1B8;
-        border-radius: 4px;
+        /* border: 1px solid #AFB1B8;
+        border-radius: 4px; */
         
 }
-.logo-company{
-        fill: #AFB1B8;
+.logo-link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 170px;
         height: 92px;
+        color: #AFB1B8;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
 }
-.logo-company:hover,
-.logo-company:focus
+.logo-company{
+        fill: currentColor;
+        width: 106px;
+        height: 60px;
+        
+}
+.logo-link:hover,
+.logo-link:focus
 {
         fill: #2196F3;
         
 }
-.logo-company-link:hover,
-.logo-company-link:focus{
+.logo-link:hover,
+.logo-link:focus{
         color: #2196F3;
         border: 1px solid #2196F3;
+        border-radius: 4px;
 }
-.team_total_contacts {
-        width: 20px;
-        height: 20px;
-        fill: #757575;
 
-
-}
 
 .bgfot {
         background-color: #2F303A;
@@ -437,21 +452,19 @@ body {
 }
 .flex-footer{
         display: flex;
-        align-items: flex-start;
+        align-items: baseline;
 }
 .follow{
         margin-left: 70px;
 }
 .social-footer{
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #FFFFFF;
-        margin-top: 10px;
+        
 }
 .social_list_link_footer {
         display: flex;
@@ -461,7 +474,7 @@ body {
         height: 44px;
         border-radius: 50%;
         background: rgba(255, 255, 255, 0.1);
-        margin-top: 16px;
+        
 
 }
 .team_total_contacts_footer {
@@ -520,7 +533,7 @@ body {
         margin-top: 50px;
 }
 .portfolio-item{
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0,    0, 0.2);
+    
     border-radius: 0px 0px 4px 4px;
     
     width: 370px;
@@ -546,6 +559,13 @@ body {
         letter-spacing: 0.03em;
         color: #757575;
         margin-top: 4px;
+}
+.portfolio-item-link{
+        display: block;
+}
+.portfolio-item-link:hover,
+.portfolio-item-link:focus{
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);;
 }
 
 
