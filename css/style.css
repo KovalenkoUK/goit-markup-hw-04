@@ -204,10 +204,7 @@ body {
         /* margin-bottom: 55px; */
         
 }
-.flex-special{
-        display: flex;
-        justify-content: space-around;
-}
+
 .bg-special{
         width: 270px;
         height: 120px;
@@ -377,17 +374,12 @@ body {
         height: 60px;
         
 }
-.logo-link:hover,
-.logo-link:focus
-{
-        fill: #2196F3;
-        
-}
+
 .logo-link:hover,
 .logo-link:focus{
         color: #2196F3;
         border: 1px solid #2196F3;
-        border-radius: 4px;
+        
 }
 
 
