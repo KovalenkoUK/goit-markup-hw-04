@@ -144,6 +144,7 @@ body {
 }
 .current {
         color: var(--logo-color);
+        align-items: flex-end;
 
 }
 .current::after{
