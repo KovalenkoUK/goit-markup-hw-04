@@ -146,6 +146,15 @@ body {
         color: var(--logo-color);
 
 }
+.current::after{
+        display: block;
+        content:'';
+        width: 48px;
+        height: 4px;
+        background: #2196F3;
+        border-radius: 2px;
+
+}
 .busines{
     
         font-family: 'Roboto';
